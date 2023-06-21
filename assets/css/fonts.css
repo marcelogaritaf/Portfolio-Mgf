@@ -1,0 +1,15 @@
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    color:var(--white);
+    text-align: center;
+    font-size: 14px;
+}
+h3{
+    font-size: 2rem;
+}
+h2,h3{
+    letter-spacing: 0.3rem;
+}
+h1,h3{
+    text-transform: uppercase;
+}

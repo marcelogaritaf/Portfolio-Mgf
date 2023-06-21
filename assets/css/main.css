@@ -1,0 +1,12 @@
+:root{
+    ---primary:hsl(190, 684, 534);
+    ---primary-dark:hsl(190, 684, 534);
+    --secundary:hsl(25,994,634);
+    --secundary-dark:hsl(25,994,634);
+    --white:#f5f9fa;
+    --white2:#e1e4e6;
+    --gray:#c0c6c9;
+    --gray2:#3e3e44;
+    --black:#323333;
+    --black:#2a2b2b;
+}

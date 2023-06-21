@@ -1,0 +1,30 @@
+html{
+    background-image: linear-gradient(to top left,rgb(29, 33, 51)50%,rgb(61, 82, 150))
+}
+section{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.menu{
+    background:linear-gradient(to right,rgb(71, 94, 172), rgb(29, 33, 51));
+    padding: 2rem 0;
+    
+}
+a{
+    text-decoration: none;
+    color:var(--white)
+}
+a:hover{
+  opacity: 0.25;
+  transition: 0.4s ease;
+}
+hr{
+    height: 0.1rem;
+    border: 0;
+    max-width: 50%;
+    background-image: linear-gradient(to right,rgb(61, 82, 150)10%,rgb(255, 255, 255), rgb(29, 33, 51));
+}
+footer{
+    background-color: rgba(25, 35, 48, 0.884);
+    padding: 2rem 0;
+}
