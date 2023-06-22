@@ -10,3 +10,56 @@
     --black:#323333;
     --black:#2a2b2b;
 }
+
+.Portfolio img{
+  width: 100%;
+ height: 100%;
+ transition: all 0.4s ease-in;
+ opacity: 0.8;
+}
+.Portfolio figure{
+    position:relative;
+    overflow: hidden;
+    border-radius: 7px;
+    box-shadow: 0px 15px 25px rgba(12, 12, 12, 0.193);
+    cursor: pointer;
+}
+.Portfolio figure .info{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(104, 36, 160, 0.384);
+    overflow: hidden;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+    transition: all 0.4s ease-in;
+}
+.Portfolio figure:hover > .info{
+    opacity: 1;
+    visibility: visible;
+}
+.Portfolio figure:hover > img{
+    transform: scale(1.5);
+}
+.Portfolio figure:hover .info h4{
+    margin-top:40px;
+    margin-bottom: 15px;
+}
+.Portfolio figure .info h4{
+    transition: all 0.5s ease-in;
+}
+.Portfolio figure .info button {
+    background-color: rgba(117, 114, 114, 0.404);
+    border-radius: 5px;
+    border: 2px solid rgba(233, 228, 228, 0.452);
+    transition: all 0.3s ease-in;
+    color: #ffff;
+}
+.Portfolio figure .info button:hover{
+    background-color: rgba(137, 96, 184, 0.473);
+    cursor: pointer;
+    color: #2a2b2b;
+    border: 2px solid rgba(137, 96, 184, 0.473);
+}

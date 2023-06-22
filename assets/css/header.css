@@ -1,0 +1,21 @@
+.header{
+    padding: 3rem 0 3rem;
+    position: relative;
+    overflow: hidden;
+    font-size: 12px;
+    border-bottom: 1px solid rgba(127, 112, 151, 0.521);
+}
+.header h3{
+    font-size: 12px;
+}
+.header video{
+   position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 200%;
+    min-height: 100%;
+    opacity: 0.2;
+    border-bottom: 100px solid rgba(rgb(140, 94, 214));
+    
+}
