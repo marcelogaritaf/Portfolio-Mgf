@@ -1,0 +1,39 @@
+.Contact hr{
+    margin-bottom: 20px;
+}
+form{
+    font-size: 1.2rem;
+}
+form label{
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+}
+input, textarea,
+input:focus, textarea:focus{
+    width: 50%;
+    padding: 1rem;
+    color: beige;
+    border: none;
+    background-color: rgba(59, 44, 75, 0.678);
+    box-shadow: none;
+    cursor: pointer;
+    margin: 1rem 0 2rem;
+}
+textarea{
+    resize: none;
+}
+button{
+    background-color: rgba(178, 43, 196, 0.582);
+    border: none;
+    padding: 0.8rem;
+    color: rgba(245, 245, 220, 0.829);
+    border-radius: 20%;
+    transition: background-color 0.6s ease-out, box-shadow 0.7s ease;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgba(245, 245, 220, 0.822);
+    color: rgba(147, 69, 221, 0.87);
+    box-shadow: 0 2px 5px 0 slategray;
+}
