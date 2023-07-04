@@ -31,9 +31,15 @@ button{
     border-radius: 20%;
     transition: background-color 0.6s ease-out, box-shadow 0.7s ease;
     cursor: pointer;
+    margin-bottom: 20px;
 }
 button:hover{
     background-color: rgba(245, 245, 220, 0.822);
     color: rgba(147, 69, 221, 0.87);
     box-shadow: 0 2px 5px 0 slategray;
 }
+.redes img{
+    width: 40px;
+    height: 40px;
+}
+
