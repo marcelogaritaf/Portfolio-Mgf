@@ -19,19 +19,42 @@
     position: relative;
 }
 .Skillset p{
-    width: 100px;
+    width: 100%;
     background-color: rgba(129, 39, 182, 0.781);
     text-align: center;
     padding: .5rem 0;
     border-radius: .5rem;
     position: absolute;
     z-index: 1;
-    transform: translate(-5px, -45px);
+    transform: translate(-1px, -40px);
     opacity: 0;
     transition: all 0.3s ease;
     pointer-events: none;
 }
 .Skillset > div > figure:hover p{
     opacity: 1;
-    transform: translate(-5px, -45px);
+    transform: translate(-1px, -45px);
+}
+@media  screen and (min-width:700px) {
+    .Skillset hr{
+        margin-bottom: 40px;
+    }
+
+    .Skillset p{
+        font-size: 25px;
+        width: 100%;
+    }
+
+    .Skillset  figure{
+        width: 60%;
+        height: 60%;
+        border-radius: 100px;
+    }
+    .Skillset > div > figure:hover p{
+        opacity: 1;
+        transform: translate(-1px, -65px);
+    }
+    .Skillset  img{
+        border-radius: 3rem;
+    }
 }

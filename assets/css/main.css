@@ -63,3 +63,19 @@
     color: #2a2b2b;
     border: 2px solid rgba(137, 96, 184, 0.473);
 }
+
+@media screen and (min-width:700px){
+    .Portfolio figure{
+        width: 80%;
+        height: 80%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .Portfolio figure:hover .info h4{
+        margin-top:80px;
+        margin-bottom: 15px;
+    }
+    .Portfolio figure:hover .info{
+        font-size: 25px;
+    }
+}
