@@ -66,16 +66,32 @@
 
 @media screen and (min-width:700px){
     .Portfolio figure{
-        width: 80%;
-        height: 80%;
+        width: 70%;
+        height: 70%;
         margin-right: auto;
         margin-left: auto;
     }
     .Portfolio figure:hover .info h4{
-        margin-top:80px;
+        margin-top:60px;
         margin-bottom: 15px;
     }
     .Portfolio figure:hover .info{
         font-size: 25px;
     }
 }
+@media screen and (min-width:1000px){
+    .Portfolio figure{
+        width: 50%;
+        height: 32%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .Portfolio figure:hover .info h4{
+        margin-top:60px;
+        margin-bottom: 15px;
+    }
+    .Portfolio figure:hover .info{
+        font-size: 25px;
+    }
+}
+
