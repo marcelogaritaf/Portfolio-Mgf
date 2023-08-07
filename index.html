@@ -39,7 +39,7 @@
         <section class="Portfolio" id="portfolio">
             <H2 class="subtitulo">Portfolio</H2>
             <hr>
-            <figure>
+            <figure class="uno">
                 <img src="assets/img/proyecto1.jpg" alt="imagen de referencia">
                 <div class="info">
                     <h4>Catalogo en Linea</h4>
@@ -47,7 +47,7 @@
                     <button><a href="https://github.com/marcelogaritaf/catalogo-en-linea/tree/main">Learn more</a></button>
                 </div>
             </figure>
-            <figure>
+            <figure class="dos">
                 <img src="assets/img/proyecto2.jpg" alt="imagen de referencia">
                 <div class="info">
                     <h4>Consumo de Api</h4>
@@ -55,12 +55,28 @@
                     <button><a href="https://github.com/marcelogaritaf/api-app-react">Learn more</a></button>
                 </div>
             </figure>
-            <figure>
+            <figure class="tres">
                 <img src="assets/img/proyecto3.jpg" alt="imagen de referencia">
                 <div class="info">
                     <h4>Newsletter sign-up form with success message</h4>
                     <p>Frontend mentor challenge sign-up form</p>
                     <button><a href="https://frontend-challenge-mgf.netlify.app/">Learn more</a></button>
+                </div>
+            </figure>
+            <figure class="cuatro">
+                <img src="assets/img/proyecto4.jpg.png" alt="imagen de referencia">
+                <div class="info">
+                    <h4>Blog homepage</h4>
+                    <p>Frontend mentor challenge News homepage</p>
+                    <button><a href="https://mgf-news-blog.netlify.app/">Learn more</a></button>
+                </div>
+            </figure>
+            <figure class="cinco">
+                <img src="assets/img/proyecto5.png" alt="imagen de referencia">
+                <div class="info">
+                    <h4>Interactive card details form</h4>
+                    <p>Frontend mentor challenge about interactive card details form</p>
+                    <button><a href="https://interactive-form-mgf.netlify.app/">Learn more</a></button>
                 </div>
             </figure>
         </section>
@@ -93,12 +109,12 @@
         <section class="Contact" id="contact">
             <H2 class="subtitulo">Contact</H2>
             <hr>
-            <form action="#">
+            <form action="https://formspree.io/f/xoqoeagv" method="post">
                 <label>Email:</label>
-                <input type="text" placeholder="Email"><br>
+                <input type="text" placeholder="Email" name="Email"><br>
                 <label>Message:</label>
-                <textarea type="text" placeholder="Message"></textarea><br>
-                <button>Send</button>
+                <textarea type="text" placeholder="Message" name="message"></textarea><br>
+                <button type="submit">Send</button>
             </form> 
             <div class="redes">
                 <a href="https://www.linkedin.com/in/marcelo-garita-fonseca-65513926a/" id="linkedin"><img src="assets/img/linkedin-svgrepo-com (1).svg" alt=""></a>
@@ -107,10 +123,11 @@
 
             </div>
         </section>
-
+        <script src="assets/js/scroll.js"></script>
+        <script src="assets/js/index.js"></script>
     </main>
     <footer class="footer">
-        &copy; Marcelo Garita Fonseca 2025
+        &copy; Marcelo Garita Fonseca 2023
     </footer>
 </body>
 </html>
