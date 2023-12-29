@@ -40,6 +40,11 @@ sr.reveal(".Portfolio .cinco", {
   origin: "right",
   distance: "500px",
 });
+sr.reveal(".Portfolio .seis", {
+  duration: 5900,
+  origin: "left",
+  distance: "500px",
+});
 sr.reveal(".Skillset h2", {
   duration: 6000,
   origin: "top",
