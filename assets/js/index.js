@@ -15,32 +15,32 @@ sr.reveal(".Portfolio h2", {
   origin: "top",
   distance: "50px",
 });
-sr.reveal(".main-content", {
+sr.reveal(".main-content .uno", {
   duration: 4700,
   origin: "bottom",
   distance: "100px",
 });
-sr.reveal(".main-content .card-1 .dos", {
+sr.reveal(".main-content .dos", {
   duration: 4800,
   origin: "bottom",
   distance: "150px",
 });
-sr.reveal(".main-content .card-1 .tres", {
+sr.reveal(".main-content .tres", {
   duration: 4900,
   origin: "bottom",
   distance: "200px",
 });
-sr.reveal(".main-content .card-1 .cuatro", {
+sr.reveal(".main-content .cuatro", {
   duration: 5000,
   origin: "bottom",
   distance: "200px",
 });
-sr.reveal(".main-content .card-1 .cinco", {
+sr.reveal(".main-content .cinco", {
   duration: 5100,
   origin: "bottom",
   distance: "250px",
 });
-sr.reveal(".main-content .card-1 .seis", {
+sr.reveal(".main-content .seis", {
   duration: 5200,
   origin: "bottom",
   distance: "300px",
