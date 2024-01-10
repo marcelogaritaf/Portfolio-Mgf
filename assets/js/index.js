@@ -12,38 +12,38 @@ sr.reveal(".header h3", {
 });
 sr.reveal(".Portfolio h2", {
   duration: 4500,
+  origin: "top",
+  distance: "50px",
+});
+sr.reveal(".main-content", {
+  duration: 4700,
   origin: "bottom",
   distance: "100px",
 });
-sr.reveal(".Portfolio .uno", {
-  duration: 4700,
-  origin: "right",
-  distance: "500px",
+sr.reveal(".main-content .card-1 .dos", {
+  duration: 4800,
+  origin: "bottom",
+  distance: "150px",
 });
-sr.reveal(".Portfolio .dos", {
+sr.reveal(".main-content .card-1 .tres", {
+  duration: 4900,
+  origin: "bottom",
+  distance: "200px",
+});
+sr.reveal(".main-content .card-1 .cuatro", {
   duration: 5000,
-  origin: "left",
-  distance: "500px",
+  origin: "bottom",
+  distance: "200px",
 });
-sr.reveal(".Portfolio .tres", {
-  duration: 5300,
-  origin: "right",
-  distance: "500px",
+sr.reveal(".main-content .card-1 .cinco", {
+  duration: 5100,
+  origin: "bottom",
+  distance: "250px",
 });
-sr.reveal(".Portfolio .cuatro", {
-  duration: 5600,
-  origin: "left",
-  distance: "500px",
-});
-sr.reveal(".Portfolio .cinco", {
-  duration: 5900,
-  origin: "right",
-  distance: "500px",
-});
-sr.reveal(".Portfolio .seis", {
-  duration: 5900,
-  origin: "left",
-  distance: "500px",
+sr.reveal(".main-content .card-1 .seis", {
+  duration: 5200,
+  origin: "bottom",
+  distance: "300px",
 });
 sr.reveal(".Skillset h2", {
   duration: 6000,
@@ -52,8 +52,8 @@ sr.reveal(".Skillset h2", {
 });
 sr.reveal(".skills", {
   duration: 6900,
-  origin: "left",
-  distance: "1px",
+  origin: "bottom",
+  distance: "50px",
 });
 sr.reveal(".Contact h2", {
   duration: 6000,

@@ -20,7 +20,7 @@
 }
 .Skillset p{
     width: 100%;
-    background-color: rgba(129, 39, 182, 0.781);
+    background-color: rgba(61, 61, 61, 0.855);
     text-align: center;
     padding: .5rem 0;
     border-radius: .5rem;
@@ -64,7 +64,8 @@
         height: 140px;
     }
     .Skillset > div{
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-left:100px;
     }
 
 }

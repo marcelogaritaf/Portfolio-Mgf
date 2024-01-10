@@ -1,12 +1,15 @@
 html{
-    background-image: linear-gradient(to top left,rgb(29, 33, 51)50%,rgb(61, 82, 150))
+    background-image: url(../img/cornered-stairs.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 section{
     padding-top: 3rem;
     padding-bottom: 3rem;
 }
 .menu{
-    background:linear-gradient(to right,rgb(71, 94, 172), rgb(29, 33, 51));
+    background:#121212c0;
     padding: 2rem 0;
     
 }
@@ -25,7 +28,7 @@ hr{
     height: 0.1rem;
     border: 0;
     max-width: 50%;
-    background-image: linear-gradient(to right,rgb(61, 82, 150)10%,rgb(255, 255, 255), rgb(29, 33, 51));
+    background-image: linear-gradient(to right,rgb(48, 49, 49)10%,rgb(255, 255, 255), rgb(54, 54, 54));
 }
 footer{
     background-color: rgba(25, 35, 48, 0.884);

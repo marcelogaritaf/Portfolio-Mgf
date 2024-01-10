@@ -15,7 +15,7 @@ input:focus, textarea:focus{
     padding: 1rem;
     color: beige;
     border: none;
-    background-color: rgba(59, 44, 75, 0.678);
+    background-color: rgba(67, 67, 67, 0.678);
     box-shadow: none;
     cursor: pointer;
     margin: 1rem 0 2rem;
@@ -24,7 +24,7 @@ textarea{
     resize: none;
 }
 button{
-    background-color: rgba(178, 43, 196, 0.582);
+    background-color: rgba(68, 68, 68, 0.582);
     border: none;
     padding: 0.8rem;
     color: rgba(245, 245, 220, 0.829);
@@ -35,7 +35,7 @@ button{
 }
 button:hover{
     background-color: rgba(245, 245, 220, 0.822);
-    color: rgba(147, 69, 221, 0.87);
+    color: rgba(93, 93, 93, 0.997);
     box-shadow: 0 2px 5px 0 slategray;
 }
 .redes img{
