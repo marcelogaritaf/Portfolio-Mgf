@@ -91,6 +91,12 @@
     height: 100px;
     transition: .3s ease;
   }
+  .pTwo-2{
+    background-image: url(../img/rawg.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
   .pTwo{
     background-image: url(../img/proyecto2.jpg);
     background-position: center;
