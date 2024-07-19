@@ -97,6 +97,12 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
+  .pTwo-2-1{
+    background-image: url(../img/desktop-preview.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
   .pTwo{
     background-image: url(../img/proyecto2.jpg);
     background-position: center;
