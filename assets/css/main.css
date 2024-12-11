@@ -103,6 +103,12 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
+  .pTwo-2-2{
+    background-image: url(../img/ip.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
   .pTwo{
     background-image: url(../img/proyecto2.jpg);
     background-position: center;
@@ -157,7 +163,7 @@
     margin-bottom: 5px;
   }
   .footer {
-    padding: 15px;
+    padding: 10px;
     border-top: 1px solid rgb(236 239 241);
     display: flex;
     align-items: center;
